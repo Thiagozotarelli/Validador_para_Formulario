@@ -36,7 +36,7 @@ const passwordtwo = document.getElementById('passwordtwo');
             errorValidation(passwordtwo,'Preencha esse Campo')
         }else if(passwordValue !== passwordtwoValue){
             errorValidation(passwordtwo ,'As Senhas Estão Incorretas')
-        } else {successValidation(passwordtwodes)}
+        } else {successValidation(passwordtwo)}
 
     }
 
